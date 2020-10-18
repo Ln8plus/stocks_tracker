@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import './StocksScreen.dart';
-import 'package:stocks_tracker/constants.dart';
+//import 'package:stocks_tracker/constants.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
+    //var size = MediaQuery.of(context).size;
     return Scaffold(
         body: Stack(
       children: <Widget>[
