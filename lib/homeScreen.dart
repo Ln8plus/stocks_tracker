@@ -11,12 +11,12 @@ class HomeScreen extends StatelessWidget {
         body: Stack(
       children: <Widget>[
         Container(
-          height: size.height * .45,
+          height: 500,
+          width: 500,
           decoration: BoxDecoration(
-            color: kSkyBlue,
             image: DecorationImage(
-                alignment: Alignment.topRight,
-                image: AssetImage("assets/images/sun.png")),
+                alignment: Alignment.topCenter,
+                image: AssetImage("assets/images/arrows.jpg")),
           ),
         ),
 
@@ -40,8 +40,8 @@ class HomeScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            color: Colors.blue,
-            textColor: Colors.black,
+            color: Colors.teal[700],
+            textColor: Colors.white,
           ),
         ),
 
@@ -56,8 +56,8 @@ class HomeScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            color: Colors.blue,
-            textColor: Colors.black,
+            color: Colors.teal[700],
+            textColor: Colors.white,
           ),
         ),
 
@@ -72,8 +72,8 @@ class HomeScreen extends StatelessWidget {
                 fontSize: 17,
               ),
             ),
-            color: Colors.blue,
-            textColor: Colors.black,
+            color: Colors.teal[700],
+            textColor: Colors.white,
           ),
         ),
 
@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                 child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Text("\n\nGood Morning  \nUser !",
+                      Text("\n\n \t\tStocks Trade  \n \t\tMarket ",
                           style: Theme.of(context)
                               .textTheme
                               .headline4
