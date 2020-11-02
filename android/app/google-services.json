@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "730544378971",
+    "firebase_url": "https://stocks-tracker-6f268.firebaseio.com",
+    "project_id": "stocks-tracker-6f268",
+    "storage_bucket": "stocks-tracker-6f268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730544378971:android:0c03931d65031c7d405b7e",
+        "android_client_info": {
+          "package_name": "com.example.stocks_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730544378971-39i7v8qrsb4tu4a3q4e6l3qr0o9o5hkj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFLe4lL9csMd5p4d6TZaB2H4WD5vLwx74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730544378971-39i7v8qrsb4tu4a3q4e6l3qr0o9o5hkj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "730544378971-slv6os4skru87gsh207ka36fcccujh71.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.stocksTracker",
+                "app_store_id": "123456789"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

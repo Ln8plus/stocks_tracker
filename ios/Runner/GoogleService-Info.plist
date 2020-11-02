@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>730544378971-slv6os4skru87gsh207ka36fcccujh71.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.730544378971-slv6os4skru87gsh207ka36fcccujh71</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDJ4eF4fKBemyQjmBKS5QyQCLaQ3yhzNL8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>730544378971</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.stocksTracker</string>
+	<key>PROJECT_ID</key>
+	<string>stocks-tracker-6f268</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stocks-tracker-6f268.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:730544378971:ios:24440ac736e38acf405b7e</string>
+	<key>DATABASE_URL</key>
+	<string>https://stocks-tracker-6f268.firebaseio.com</string>
+</dict>
+</plist>
