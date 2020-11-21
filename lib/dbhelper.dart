@@ -15,6 +15,7 @@ class Dbhelper {
   }
 
   static final Dbhelper instance = Dbhelper._privateConstructor();
+  // ignore: missing_return
   Future<Database> initDB() async {
     var dbPath = await getDatabasesPath();
     var path = join(dbPath, "STOCKS.db");
@@ -38,7 +39,9 @@ class Dbhelper {
     }
     var db = await openDatabase(path, readOnly: true);
 
+    // ignore: unused_element
     Future<List> queryall(String listings) async {
+      // ignore: await_only_futures
       var dbClient = await db;
       var result = await dbClient.rawQuery("SELECT * FROM $listings");
 

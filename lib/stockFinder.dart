@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'company.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dbhelper.dart';
 import 'package:sqflite/sqflite.dart';
 

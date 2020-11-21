@@ -1,6 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'stockFinder.dart';
 
 // ignore: camel_case_types
 class outputResult extends StatefulWidget {

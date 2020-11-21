@@ -1,11 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:stocks_tracker/constants.dart';
-import 'package:stocks_tracker/dbhelper.dart';
-//import 'authentication.dart';
 import './homeScreen.dart';
-import 'dbhelper.dart';
-//import 'package:flutter_svg/flutter_svg.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

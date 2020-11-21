@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'stockPage.dart';
-import 'stocksPage.dart';
-import './StocksScreen.dart';
-import 'stockFinder.dart';
-import 'dbhelper.dart';
-//import 'package:stocks_tracker/constants.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

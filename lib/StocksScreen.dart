@@ -1,6 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
 
 class StocksScreen extends StatefulWidget {
   final List<String> list = List.generate(10, (index) => "Text $index");
