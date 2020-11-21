@@ -48,6 +48,7 @@ class _stockPageState extends State<stockPage> {
     return Scaffold(
         appBar: AppBar(
           title: Text('Stocks Listings'),
+          backgroundColor: Colors.teal,
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
@@ -61,7 +62,8 @@ class _stockPageState extends State<stockPage> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: TextField(
-        decoration: InputDecoration(hintText: 'Search...'),
+        decoration: InputDecoration(
+            hintText: 'Search...', prefixIcon: Icon(Icons.search)),
         onChanged: (text) {
           text = text.toLowerCase();
           setState(() {
