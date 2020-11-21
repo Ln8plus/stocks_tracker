@@ -18,8 +18,10 @@ class _stockPageState extends State<stockPage> {
   Future<List<Company>> fetchCompanies() async {
     var url = 'https://stonks-88a9.restdb.io/rest/stock-json';
 
-    var response = await http.get(url,
-        headers: {'x-apikey': "dcfe97f7bcce72026887a2075d0187fd6ca6d"});
+    var response = await http.get(url, headers: {
+      'x-apikey': "dcfe97f7bcce72026887a2075d0187fd6ca6d",
+      'cache-control': "no-cache"
+    });
     var companies = List<Company>();
     if (response.statusCode == 200) {
       var companiesJson = json.decode(response.body);
@@ -61,7 +63,8 @@ class _stockPageState extends State<stockPage> {
       padding: const EdgeInsets.all(8.0),
       child: TextField(
         decoration: InputDecoration(
-            hintText: 'Search...', prefixIcon: Icon(Icons.search)),
+            hintText: 'Enter unique company code...',
+            prefixIcon: Icon(Icons.search)),
         onChanged: (text) {
           text = text.toLowerCase();
           setState(() {
