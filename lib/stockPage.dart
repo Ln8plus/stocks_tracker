@@ -88,23 +88,34 @@ class _stockPageState extends State<stockPage> {
           children: <Widget>[
             Text(
               _companiesForDisplay[index].companyCode,
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.teal.shade700),
             ),
             Text(
               _companiesForDisplay[index].companyName,
-              style: TextStyle(color: Colors.grey.shade600),
+              style: TextStyle(color: Colors.blueGrey.shade600),
             ),
             Text(
               _companiesForDisplay[index].countryCode,
-              style: TextStyle(color: Colors.blue.shade300),
+              style: TextStyle(color: Colors.blue.shade600),
             ),
             Text(
               _companiesForDisplay[index].lastTrade,
               style: TextStyle(color: Colors.green.shade600),
             ),
             Text(
-              _companiesForDisplay[index].changePercent,
-              style: TextStyle(color: Colors.purple.shade900),
+              _companiesForDisplay[index].change,
+              style: TextStyle(color: Colors.teal.shade900),
+            ),
+            Text(
+              _companiesForDisplay[index].open,
+              style: TextStyle(color: Colors.lightGreen.shade500),
+            ),
+            Text(
+              _companiesForDisplay[index].prevClose,
+              style: TextStyle(color: Colors.red.shade300),
             ),
           ],
         ),
