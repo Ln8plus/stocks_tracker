@@ -48,7 +48,7 @@ class _stockPageState extends State<stockPage> {
     return Scaffold(
         appBar: AppBar(
           title: Text('Stocks Listings'),
-          backgroundColor: Colors.teal,
+          backgroundColor: Colors.yellow,
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
