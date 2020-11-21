@@ -11,6 +11,8 @@ Fails on browser API testers due to http 401(unauthorized) & CORS error
 
 
 Tried using Firebase & then SQFLITE but their implementations were not what I had in mind
+
+
 Firebase: Didn't provide any structured query language so I wasn't able to find any way to
 filter data for a search function. Auth was necessary not an option.
 
