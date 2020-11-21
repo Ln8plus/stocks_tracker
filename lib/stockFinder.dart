@@ -3,6 +3,7 @@ import 'dbhelper.dart';
 import 'package:sqflite/sqflite.dart';
 
 /*
+// ignore: todo
 TODO AS OF 08/11/2020
 
 
