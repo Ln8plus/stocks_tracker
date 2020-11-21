@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'company.dart';
 import 'dart:convert';
@@ -48,7 +46,7 @@ class _stockPageState extends State<stockPage> {
     return Scaffold(
         appBar: AppBar(
           title: Text('Stocks Listings'),
-          backgroundColor: Colors.yellow,
+          backgroundColor: Colors.teal,
         ),
         body: ListView.builder(
           itemBuilder: (context, index) {
