@@ -1,4 +1,6 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'dart:async';
 
 class StocksScreen extends StatefulWidget {
   final List<String> list = List.generate(10, (index) => "Text $index");
@@ -6,6 +8,8 @@ class StocksScreen extends StatefulWidget {
   @override
   _StocksScreenState createState() => _StocksScreenState();
 }
+
+//Query where {
 
 class _StocksScreenState extends State<StocksScreen> {
   @override
@@ -21,7 +25,7 @@ class _StocksScreenState extends State<StocksScreen> {
           )
         ],
         centerTitle: true,
-        title: Text('Search Bar'),
+        title: Text('Search Stocks'),
       ),
       body: ListView.builder(
         itemCount: widget.list.length,
@@ -93,7 +97,7 @@ class Search extends SearchDelegate {
           ),
           leading: query.isEmpty ? Icon(Icons.access_time) : SizedBox(),
           onTap: () {
-            selectedResult = suggestionList[index];
+            //selectedResult = suggestionList[index];
             showResults(context);
           },
         );

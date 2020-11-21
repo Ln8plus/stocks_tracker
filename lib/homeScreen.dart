@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'stockPage.dart';
+import 'stocksPage.dart';
 import './StocksScreen.dart';
+import 'stockFinder.dart';
+import 'dbhelper.dart';
 //import 'package:stocks_tracker/constants.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -28,7 +32,8 @@ class HomeScreen extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) {
-                  return StocksScreen();
+                  return stockPage();
+                  //Field entry is a entrypoint function in stockFinder.dart
                 }),
               );
             },

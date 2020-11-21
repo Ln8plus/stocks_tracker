@@ -24,6 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
   image: ^2.1.14
+  sqflite:
+  path_provider:
+  path: ^1.7.0
+  http: ^0.12.2
 
   #FlutterFire
   firebase_core: "^0.5.0+1"
@@ -54,7 +58,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
       - assets/images/arrows.jpg
-      
+      - assets/STOCKS.db
+      - assets/STOCK.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
