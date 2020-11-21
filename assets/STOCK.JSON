@@ -1,7 +1,7 @@
 [
     {
     "companyCode": "AAPL",
-    "companyName": "APPLE",
+    "companyName": "APPLE Inc.",
     "countryCode": "USA",
         "lastTrade": "Last Trade at $110.02",
         "change": "Change $1.16",
@@ -12,7 +12,7 @@
     },    
      {  
     "companyCode": "NFLX",
-    "companyName": "NETFLIX",
+    "companyName": "NETFLIX Inc.",
     "countryCode": "USA",
         "lastTrade": "Last Trade at $479.75",
         "change": "Change $4.01",
