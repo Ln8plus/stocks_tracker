@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
                 context,
                 MaterialPageRoute(builder: (context) {
                   return stockPage();
-                  //Field entry is a entrypoint function in stockFinder.dart
+                  //This  button returns the stockpage on being pressed
                 }),
               );
             },

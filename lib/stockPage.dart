@@ -63,13 +63,12 @@ class _stockPageState extends State<stockPage> {
       padding: const EdgeInsets.all(8.0),
       child: TextField(
         decoration: InputDecoration(
-            hintText: 'Enter unique company code...',
-            prefixIcon: Icon(Icons.search)),
+            hintText: 'Enter company name...', prefixIcon: Icon(Icons.search)),
         onChanged: (text) {
           text = text.toLowerCase();
           setState(() {
             _companiesForDisplay = _companies.where((company) {
-              var companyTitle = company.companyCode.toLowerCase();
+              var companyTitle = company.companyName.toLowerCase();
               return companyTitle.contains(text);
             }).toList();
           });
