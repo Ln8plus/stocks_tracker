@@ -12,7 +12,7 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
   final fromTextController = TextEditingController();
   List<String> currencies;
   String fromCurrency = "USD";
-  String toCurrency = "GBP";
+  String toCurrency = "INR";
   String result;
 
   @override
@@ -65,6 +65,7 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Currency Converter"),
+        backgroundColor: Colors.teal,
       ),
       body: currencies == null
           ? Center(child: CircularProgressIndicator())
@@ -87,18 +88,23 @@ class _CurrencyConverterState extends State<CurrencyConverter> {
                         ),
                         trailing: _buildDropDownButton(fromCurrency),
                       ),
-                      IconButton(
-                        icon: Icon(Icons.arrow_downward),
+                      RaisedButton(
+                        //icon: Icon(Icons.arrow_downward),
+                        child: const Text('CONVERT',
+                            style:
+                                TextStyle(fontSize: 20, color: Colors.white)),
                         onPressed: _doConversion,
+                        color: Colors.teal.shade500,
                       ),
                       ListTile(
                         title: Chip(
                           label: result != null
-                              ? Text(
-                                  result,
+                              ? Text(result,
                                   // ignore: deprecated_member_use
-                                  style: Theme.of(context).textTheme.display1,
-                                )
+                                  style: TextStyle(
+                                      fontSize: 32,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.blue.shade800))
                               : Text(""),
                         ),
                         trailing: _buildDropDownButton(toCurrency),

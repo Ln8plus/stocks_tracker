@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'stockPage.dart';
+import 'currencyconverter.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -65,7 +66,14 @@ class HomeScreen extends StatelessWidget {
         Container(
           alignment: Alignment(0.0, 0.7),
           child: RaisedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) {
+                  return CurrencyConverter();
+                }),
+              );
+            },
             child: Text(
               "Currency Converter",
               style: TextStyle(
