@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
 
             //Icon(Icons.search),
             child: Text(
-              "           Stocks           ",
+              "    Stocks Listings   ",
               style: TextStyle(
                 fontSize: 17,
               ),
